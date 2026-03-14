@@ -1,0 +1,8 @@
+name=['Annie','John','Bob','Rahul']
+age=[23,45,66,12]
+LOC=['Chennai','Pondy','Vellore','Adyar']
+res=list(zip(age,name,LOC))
+res2=sorted(res)
+
+for i in range(4):
+    print("{}.{} age is {} lives in {}".format(i+1,res2[i][1],res2[i][0],res2[i][2]))
